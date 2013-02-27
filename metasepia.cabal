@@ -1,0 +1,18 @@
+name:               metasepia
+version:            0.2.0.0
+synopsis:           An esoteric IRC bot
+description:
+    Yet another IRC bot.
+homepage:           https://github.com/pfcuttle/metasepia
+license:            BSD3
+license-file:       LICENSE
+author:             Alexandre Boily
+maintainer:         alexandreboily@gmail.com
+category:           Network
+build-type:         Simple
+cabal-version:      >=1.8
+
+executable metasepia
+    main-is:        Main.hs
+    ghc-options:    -Wall -fno-warn-unused-do-bind
+    build-depends:  base ==4.6.*
